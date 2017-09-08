@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Simple Calculator</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body onload="startCalculation()">
+<h3>Calculator</h3>
+<div class="divTable">
+<div class="textareadiv">
+<div id="textarea"></div>
+</div>
+             <div class="headRow">
+                <button id="b1" class="divCell" onclick="clear('')" align="center">C</button>
+                <button id="b2" class="divCell" onclick="equals('=')">=</button>
+                <button id="b3" class="divCell" onclick="operation('%')">%</button>
+				<button id="b4" class="divCell" onclick="operation('*')">*</button>
+             </div>
+            <div class="divRow">
+                  <button id="b5" class="divCell" onclick="value(1)">1</button>
+                <button id="b6" class="divCell" onclick="value(2)">2</button>
+                <button id="b7" class="divCell" onclick="value(3)">3</button>
+				  <button id="b8" class="divCell" onclick="operation('+')">+</button>
+            </div>
+            <div class="divRow">
+                <button id="b9" class="divCell" onclick="value(4)">4</button>
+                <button id="b10" class="divCell" onclick="value(5)">5</button>
+                <button id="b11" class="divCell" onclick="value(6)">6</button>
+				  <button id="b12" class="divCell" onclick="operation('-')">-</button>
+           </div>
+            <div class="divRow">
+                <button id="b13" class="divCell" onclick="value(7)">7</button>
+                <button id="b14" class="divCell" onclick="value(8)">8</button>
+                <button id="b15" class="divCell" onclick="value(9)">9</button>
+				  <button id="b16" class="divCell" onclick="operation('/')">/</button>
+           </div>
+		  
+            <div class="divRow" id="middlediv">
+                <button id="b17" class="divCell" onclick="value(0)">0</button>
+                <button id="b18" class="divCell" onclick="operation('.')">.</button>
+                
+           </div>
+         </div>
+
+
+<script src="calc.js"></script>
+</body>
+</html>
