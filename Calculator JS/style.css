@@ -1,0 +1,51 @@
+  .divTable
+    {
+        display:  table;
+        width:auto;
+        background-color:#eee;
+        border:2px solid white;
+        border-spacing:5px;
+		background-color:#4d4d4d;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:20px;
+		padding-bottom:20px;
+		border-radius:40px;
+		opacity:50%;
+     
+    }
+
+    .divRow
+    {
+       display:table-row;
+       width:auto;
+    }
+
+    .divCell
+    {
+        float:left;
+        display:table-column;
+        width:80px;
+		height:40px;
+        background-color:black;
+		color:white;
+		
+	}
+	#textarea
+	{
+		width:100%;
+		border:2px solid black;
+		height:30px;
+		background-color:white;
+	}
+	.textareadiv
+	{
+		padding-bottom:20px;
+		
+	}
+	#middlediv
+	{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
